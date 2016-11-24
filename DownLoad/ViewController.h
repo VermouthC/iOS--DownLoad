@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *downBtn;
-
+/**通过连线声明的进度条 */
 @property (weak, nonatomic) IBOutlet UIProgressView *downProgress;
 
 @end
