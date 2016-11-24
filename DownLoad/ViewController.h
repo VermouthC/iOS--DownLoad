@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *downBtn;
 
+@property (weak, nonatomic) IBOutlet UIProgressView *downProgress;
 
 @end
 

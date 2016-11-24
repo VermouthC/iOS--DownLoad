@@ -13,6 +13,7 @@
 		EEB29A9E1DE6CAE300EDF552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB29A9C1DE6CAE300EDF552 /* Main.storyboard */; };
 		EEB29AA01DE6CAE300EDF552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB29A9F1DE6CAE300EDF552 /* Assets.xcassets */; };
 		EEB29AA31DE6CAE300EDF552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB29AA11DE6CAE300EDF552 /* LaunchScreen.storyboard */; };
+		EEB29AB01DE6EE7500EDF552 /* HcdProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB29AAF1DE6EE7500EDF552 /* HcdProcessView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EEB29A9F1DE6CAE300EDF552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEB29AA21DE6CAE300EDF552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEB29AA41DE6CAE300EDF552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB29AAE1DE6EE7500EDF552 /* HcdProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HcdProcessView.h; sourceTree = "<group>"; };
+		EEB29AAF1DE6EE7500EDF552 /* HcdProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HcdProcessView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		EEB29A921DE6CAE300EDF552 /* DownLoad */ = {
 			isa = PBXGroup;
 			children = (
+				EEB29AAD1DE6EE7500EDF552 /* 第三方进度条 */,
 				EEB29A961DE6CAE300EDF552 /* AppDelegate.h */,
 				EEB29A971DE6CAE300EDF552 /* AppDelegate.m */,
 				EEB29A991DE6CAE300EDF552 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				EEB29A941DE6CAE300EDF552 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEB29AAD1DE6EE7500EDF552 /* 第三方进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				EEB29AAE1DE6EE7500EDF552 /* HcdProcessView.h */,
+				EEB29AAF1DE6EE7500EDF552 /* HcdProcessView.m */,
+			);
+			path = "第三方进度条";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB29AB01DE6EE7500EDF552 /* HcdProcessView.m in Sources */,
 				EEB29A9B1DE6CAE300EDF552 /* ViewController.m in Sources */,
 				EEB29A981DE6CAE300EDF552 /* AppDelegate.m in Sources */,
 				EEB29A951DE6CAE300EDF552 /* main.m in Sources */,
@@ -299,6 +313,7 @@
 				EEB29AA91DE6CAE300EDF552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
